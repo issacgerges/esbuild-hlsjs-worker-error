@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-hlsjs-worker-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "0.14.33",
+    "hls.js": "^1.2.9"
+  },
+  "scripts": {
+    "build": "esbuild in.js --bundle --keep-names --outfile=out.js",
+    "test": "open index.html"
+  }
+}
